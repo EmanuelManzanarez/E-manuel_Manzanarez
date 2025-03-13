@@ -1,0 +1,77 @@
+Introducción
+
+Este manual explica paso a paso cómo utilizar un programa de consola diseñado para cifrar y descifrar contraseñas utilizando el método de cifrado César.
+
+Requisitos
+
+Python 3.x instalado en tu computadora.
+
+Sistema operativo Windows (recomendado).
+
+Ejecución del Programa
+
+Abre tu terminal o CMD.
+
+Navega al directorio donde se encuentra el archivo Python.
+
+Ejecuta el script con el siguiente comando:
+
+python nombre_archivo.py
+
+Menú de Opciones
+
+Al iniciar el programa, se mostrará un menú con las siguientes opciones:
+
+--Menú para encirptar y desencriptar contraseñas--
+1 - Generar una contraseña random encriptada
+2 - Ingresa una contraseña tuya para encriptarla
+3 - Desencriptar la contraseña
+9 - salir
+
+Opción 1: Generar una Contraseña Aleatoria Encriptada
+
+Selecciona 1 en el menú.
+
+Ingresa el nombre de la aplicación para la cual será usada esta contraseña.
+
+Ingresa una palabra clave (sin espacios ni números) que servirá para el cifrado.
+
+El programa generará automáticamente una contraseña aleatoria segura.
+
+Se mostrarán en pantalla la contraseña original (sin cifrar) y la contraseña cifrada.
+
+Ambas serán guardadas automáticamente en el archivo contras.txt junto al nombre de la aplicación.
+
+Opción 2: Encriptar tu Propia Contraseña
+
+Selecciona 2 en el menú.
+
+Ingresa el nombre de la aplicación para la que deseas guardar la contraseña.
+
+Ingresa la contraseña que quieres cifrar.
+
+Ingresa una palabra clave (sin espacios ni números) que será usada para cifrar.
+
+El programa cifrará tu contraseña y te mostrará el resultado en pantalla.
+
+La contraseña cifrada se guardará automáticamente en contras.txt junto con el nombre de la aplicación.
+
+Opción 3: Desencriptar una Contraseña
+
+Selecciona 3 en el menú.
+
+Ingresa la contraseña cifrada que deseas recuperar.
+
+Ingresa la palabra clave utilizada originalmente para cifrar la contraseña.
+
+El programa descifrará y mostrará tu contraseña original en pantalla.
+
+Salir del Programa
+
+Selecciona 9 para cerrar y salir del programa.
+
+Nota Importante
+
+Las contraseñas cifradas se almacenan en texto plano en el archivo contras.txt. Es recomendable proteger este archivo adecuadamente.
+
+La clave usada para cifrar debe ser recordada o guardada en un lugar seguro, ya que es necesaria para el descifrado de contraseñas.
